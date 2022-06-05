@@ -1,0 +1,47 @@
+body {
+    background: #09f;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.card input {
+    margin-bottom: 1rem;
+}
+
+.card p {
+    margin-bottom: 1.5rem;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+#historial {
+    position: relative;
+    bottom: 10rem;
+}
+
+#historial p {
+    margin-bottom: 5px;
+}
+
+#historial .card-header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .card {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #historial {
+        position: static;
+        bottom: 0;
+    }
+}
