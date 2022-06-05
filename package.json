@@ -1,0 +1,20 @@
+{
+  "name": "von-neumann-converter-nodejs",
+  "version": "1.0.0",
+  "description": "Convertidor de la arquitectura de Von Neumann para las tareas de mi clase. Gg ez lhw",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "keywords": [],
+  "author": "Exaedro",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
