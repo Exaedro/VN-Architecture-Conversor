@@ -113,9 +113,6 @@ let resultado = null;
 const MOV = (RD, RS) => {
     const regex = /\[R[0-7]]/ig;
 
-    console.log(RD + ' | ' + RS)
-    console.log(regex.test(RD) + ' | ' + regex.test(RS))
-
     if(regex.test(RD) == true && regex.test(RS) == false) {
         resultado = tablaInstrucciones.MOVE.ccrm + tablaR[RD.replace(/[\[\]]/g, '')] + tablaR[RS] + '00000';
         if(resultado.includes('undefined')) return alert('Syntaxis invalida.');
