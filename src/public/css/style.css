@@ -1,5 +1,6 @@
 body {
     background: #09f;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;;
 }
 
 .card {
@@ -20,7 +21,8 @@ body {
 
 #historial {
     position: relative;
-    bottom: 10rem;
+    top: -5.8rem;
+    margin-bottom: 2rem;
 }
 
 #historial p {
@@ -47,6 +49,9 @@ body {
     .card {
         margin-top: 2rem;
     }
+    #historial {
+        top: 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -54,10 +59,4 @@ body {
         position: relative;
         bottom: 0;
     }
-}
-
-@media (min-width: 991px) {
-  #historial {
-    margin-top: 4.8rem;
-  }
 }
